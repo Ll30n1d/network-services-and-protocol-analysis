@@ -1,5 +1,7 @@
 # Network Services and Protocol Analysis
 
+Настройка сетевых протоколов и анализ сетевого трафика с использованием GNS3, Cisco IOS и Wireshark.
+
 ![Cisco IOS](https://img.shields.io/badge/Cisco_IOS-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
 ![GNS3](https://img.shields.io/badge/GNS3-2C3E50?style=flat-square)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
@@ -9,19 +11,15 @@
 ![DHCP](https://img.shields.io/badge/DHCP-0A66C2?style=flat-square)
 ![SSH](https://img.shields.io/badge/SSH-0A66C2?style=flat-square)
 
-Настройка сетевых протоколов и анализ сетевого трафика с использованием GNS3, Cisco IOS и Wireshark.
-
-Подробный отчёт (конфигурации, результаты проверок, скриншоты): [docs/report.md](docs/report.md)
-
-## Контекст
-
-Работа выполнялась в изолированной виртуальной лаборатории на базе Ubuntu 22.04 в VirtualBox. Для моделирования сетевой инфраструктуры использовался GNS3 с сетевыми устройствами Cisco 3745.
-
 ## Цель проекта
 
 Настроить сетевые устройства и прикладные протоколы, разобрать принципы сетевого взаимодействия и проанализировать передаваемые данные на уровне сетевых пакетов.
 
 В рамках проекта настроены статическая маршрутизация, NTP, DNS, DHCP и SSH, проверена работоспособность сервисов и исследован соответствующий сетевой трафик в Wireshark.
+
+## Контекст
+
+Работа выполнялась в изолированной виртуальной лаборатории на базе Ubuntu 22.04 в VirtualBox. Для моделирования сетевой инфраструктуры использовался GNS3 с сетевыми устройствами Cisco 3745.
 
 ## Окружение и инструменты
 
@@ -34,6 +32,8 @@
 | Wireshark | Захват и анализ сетевого трафика |
 
 ## Ход работы
+
+> Подробный отчёт (конфигурации, результаты проверок, скриншоты): [docs/report.md](docs/report.md)
 
 ### 1. Static Routing
 
@@ -97,3 +97,7 @@
 - Трафик каждого сервиса захвачен и разобран в Wireshark, включая DHCP DORA и TCP Three-Way Handshake.
 - Изучены различия между Telnet и SSH с точки зрения защиты передаваемых данных.
 - Результаты сохранены в виде проектов GNS3 и PCAP-дампов.
+
+
+
+Подробный отчёт (конфигурации, результаты проверок, скриншоты): [docs/report.md](docs/report.md)
