@@ -1,5 +1,14 @@
 # Network Services and Protocol Analysis
 
+![Cisco IOS](https://img.shields.io/badge/Cisco_IOS-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
+![GNS3](https://img.shields.io/badge/GNS3-2C3E50?style=flat-square)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Static Routing](https://img.shields.io/badge/Static_Routing-0A66C2?style=flat-square)
+![NTP](https://img.shields.io/badge/NTP-0A66C2?style=flat-square)
+![DNS](https://img.shields.io/badge/DNS-0A66C2?style=flat-square)
+![DHCP](https://img.shields.io/badge/DHCP-0A66C2?style=flat-square)
+![SSH](https://img.shields.io/badge/SSH-0A66C2?style=flat-square)
+
 Настройка сетевых протоколов и анализ сетевого трафика с использованием GNS3, Cisco IOS и Wireshark.
 
 Подробный отчёт (конфигурации, результаты проверок, скриншоты): [docs/report.md](docs/report.md)
